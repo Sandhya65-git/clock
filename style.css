@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("https://picsum.photos/1200/800");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px 40px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    width: 320px;
+}
+
+#clock {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+#date {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+#stopwatch {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.alarm input {
+    padding: 5px;
+}
+
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Light Mode */
+.light {
+    background: rgba(255, 255, 255, 0.85);
+    color: black;
+}
+
+.light button {
+    background: black;
+    color: white;
+}
+
